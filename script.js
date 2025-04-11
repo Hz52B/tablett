@@ -265,7 +265,8 @@ function createElement(elementData, isThumbnail = false) {
           contentDiv.style.wordBreak = "break-word";
           contentDiv.style.overflow = "hidden";
           contentDiv.style.display = "flex";
-          contentDiv.style.alignItems = "center";
+          contentDiv.style.alignItems = "center"; 
+          contentDiv.style.justifyContent = "flex-start";
 
           // Apply theme from JSON data to contentDiv instead of row
           if (elementData.theme) {
